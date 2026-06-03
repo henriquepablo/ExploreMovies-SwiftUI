@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		13867F4E2FCFA42300B81DEB /* RammettoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13867F4D2FCFA42300B81DEB /* RammettoOne-Regular.ttf */; };
+		13867F522FCFA56D00B81DEB /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13867F512FCFA56D00B81DEB /* Rajdhani-Bold.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		13867F312FCF9FF100B81DEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +32,26 @@
 		13867F232FCF9FF000B81DEB /* ExploreMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13867F302FCF9FF100B81DEB /* ExploreMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13867F3A2FCF9FF100B81DEB /* ExploreMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13867F4D2FCFA42300B81DEB /* RammettoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RammettoOne-Regular.ttf"; sourceTree = "<group>"; };
+		13867F512FCFA56D00B81DEB /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		13867F502FCFA45100B81DEB /* Exceptions for "ExploreMovies" folder in "ExploreMovies" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 13867F222FCF9FF000B81DEB /* ExploreMovies */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		13867F252FCF9FF000B81DEB /* ExploreMovies */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				13867F502FCFA45100B81DEB /* Exceptions for "ExploreMovies" folder in "ExploreMovies" target */,
+			);
 			path = ExploreMovies;
 			sourceTree = "<group>";
 		};
@@ -75,6 +95,8 @@
 		13867F1A2FCF9FF000B81DEB = {
 			isa = PBXGroup;
 			children = (
+				13867F512FCFA56D00B81DEB /* Rajdhani-Bold.ttf */,
+				13867F4D2FCFA42300B81DEB /* RammettoOne-Regular.ttf */,
 				13867F252FCF9FF000B81DEB /* ExploreMovies */,
 				13867F332FCF9FF100B81DEB /* ExploreMoviesTests */,
 				13867F3D2FCF9FF100B81DEB /* ExploreMoviesUITests */,
@@ -212,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13867F522FCFA56D00B81DEB /* Rajdhani-Bold.ttf in Resources */,
+				13867F4E2FCFA42300B81DEB /* RammettoOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +424,7 @@
 				DEVELOPMENT_TEAM = VK7UVMLX8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExploreMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,6 +457,7 @@
 				DEVELOPMENT_TEAM = VK7UVMLX8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExploreMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
