@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13867F4E2FCFA42300B81DEB /* RammettoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13867F4D2FCFA42300B81DEB /* RammettoOne-Regular.ttf */; };
 		13867F522FCFA56D00B81DEB /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13867F512FCFA56D00B81DEB /* Rajdhani-Bold.ttf */; };
+		13867F5A2FCFAAAE00B81DEB /* NunitoSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13867F592FCFAAAE00B81DEB /* NunitoSans.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		13867F3A2FCF9FF100B81DEB /* ExploreMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13867F4D2FCFA42300B81DEB /* RammettoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RammettoOne-Regular.ttf"; sourceTree = "<group>"; };
 		13867F512FCFA56D00B81DEB /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
+		13867F592FCFAAAE00B81DEB /* NunitoSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NunitoSans.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -95,6 +97,7 @@
 		13867F1A2FCF9FF000B81DEB = {
 			isa = PBXGroup;
 			children = (
+				13867F592FCFAAAE00B81DEB /* NunitoSans.ttf */,
 				13867F512FCFA56D00B81DEB /* Rajdhani-Bold.ttf */,
 				13867F4D2FCFA42300B81DEB /* RammettoOne-Regular.ttf */,
 				13867F252FCF9FF000B81DEB /* ExploreMovies */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13867F5A2FCFAAAE00B81DEB /* NunitoSans.ttf in Resources */,
 				13867F522FCFA56D00B81DEB /* Rajdhani-Bold.ttf in Resources */,
 				13867F4E2FCFA42300B81DEB /* RammettoOne-Regular.ttf in Resources */,
 			);
