@@ -12,8 +12,15 @@ struct HomeView: View {
         ZStack(alignment: .top) {
             Color("gray-100")
                 .ignoresSafeArea()
-
-            HeaderView(imageIconName: "Film", title: "Populares", description: "Explore os filmes populares hoje e encontre coisas novas para assistir!")
+            VStack {
+                HeaderView(imageIconName: "Film", title: "Populares", description: "Explore os filmes populares hoje e encontre coisas novas para assistir!")
+                
+                ScrollView {
+                    LazyVStack (alignment: .leading) {
+                        MovieCardView()
+                    }
+                }
+            }
         }
     }
 }
